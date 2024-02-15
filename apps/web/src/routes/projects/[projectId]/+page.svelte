@@ -9,7 +9,7 @@
 			<img
 				src={data.project?.thumbnail
 					? getImageURL(data.project.collectionId, data.project.id, data.project.thumbnail, '80x80')
-					: `https://via.placeholder.com/80/4506CB/FFFFFF/?text=${data.project.name}`}
+					: `https://dummyimage.com/80/4506CB/ffffff&text=${data.project.name}`}
 				alt="project thumbnail"
 			/>
 		</div>
